@@ -1,6 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
-import barbiesRoutes from "./src/routes/barbieRoutes.js";
+import carrosRoutes from "./src/routes/carroRoutes.js";
 
 const app = express();
 app.use(express.json());
@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
     res.send("🚀 Servidor funcionando...");
 });
 
-app.use("/barbies", barbiesRoutes);
+app.use("/carros", carrosRoutes);
 
 app.listen(serverPort, () => {
     console.log(`🚀 Servidor rodando em http://localhost:${serverPort} 🚀`);
