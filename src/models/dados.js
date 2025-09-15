@@ -42,7 +42,47 @@ const carros = [
         anoLancamento: 2015,
         cor: "Preto",
         qtdeVitorias: 200,
-    }
+    },
+    {
+        id: 6,
+        nome: "Valentina🔥",
+        modelo: "Muscle Americano",
+        anoLancamento: 2022,
+        cor: "Vermelho",
+        qtdeVitorias: 1500,
+  },
+  {
+        id: 7,
+        nome: "Lucas⚡",
+        modelo: "Sedan Alemão",
+        anoLancamento: 2023,
+        cor: "Azul",
+     qtdeVitorias: 1800,
+  },
+  {
+        id: 8,
+        nome: "Isabela🌟",
+        modelo: "SUV Japonês",
+        anoLancamento: 2021,
+        cor: "Branco",
+        qtdeVitorias: 1200,
+  },
+  {
+        id: 9,
+        nome: "Rafael🚗",
+        modelo: "Compacto Europeu",
+        anoLancamento: 2020,
+        cor: "Cinza",
+        qtdeVitorias: 1000,
+  },
+  {
+    id: 10,
+    nome: "Jorge🔥",
+    modelo: "Compacto Japones",
+    anoLancamento: 2021,
+    cor: "Azul cristal",
+    qtdeVitorias: 108,
+},
 ];
 
 export default { carros };
