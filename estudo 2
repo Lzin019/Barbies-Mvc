@@ -1,0 +1,15 @@
+import express from "express";
+import { createPersonagem, deletePersonagem, getAllPersonagensFiltrados, getPersonagemCampeao, getPersonagensById, getRacaRepetida, updatePersonagem } from "../controllers/personagenController.js";
+
+const router = express.Router();
+
+router.get("/campeao", getPersonagemCampeao);
+router.get("/raca-repetida", getRacaRepetida);
+
+router.get("/", getAllPersonagensFiltrados);
+router.get("/:id", getPersonagensById);
+router.post("/", createPersonagem);
+router.delete("/:id", deletePersonagem);
+router.put("/:id", updatePersonagem);
+
+export default router
